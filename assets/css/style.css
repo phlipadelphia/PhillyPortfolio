@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    margin: 0;
+    background: #afa3a3;
+    color: #144762;
+}
+
+
+.nameTitle {
+    justify-content: center;
+    margin-top: 5%;
+}
+
+header {
+    padding: 50px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 200px;
+    margin: 0 .5%;
+    font-size: 150%;
+    font-family: 'Chakra Petch', sans-serif;
+    color: #67c3f5;
+    background: #afa3a3;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+aside {
+    flex: 30%;
+    text-align: center;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+section {
+    width: 70%;
+    margin: 20px auto;
+    flex: 70%;
+    padding: 30px; 
+}
+
+.AboutImg {
+    width: 100%;
+    padding: 40px;
+    height: 45%;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    margin-left: 300px;
+}
+
+.title {
+    text-align: center;
+}
+
+#about {
+    margin-top: 10%;
+    padding: 40px;
+}
+
+#smile {
+    margin-left: 500px;
+}
